@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+		<title>Welcome Page-Tracy Francis's Professional Portfolio</title>
+</head>
+
+<body>
+		
+		<insert image here>
+		
+		<section id="Welcome Message">
+				<p> Hey there and welcome to my first professional portfolio website. Click on one of the links below to learn more about me. <p>
+		</section>
+		
+		<section id="Nav bar">
+		<header>
+		insert navigation buttons here 
+		-About Me link
+		-Work History link
+		-Whats new!
+		</header>
+		</section>
+		
+		
+</body>
+
+<insert footer here>
+Contact link 	GitHub repo: https://github.com/Franchize/project1 	Drop your questions, commits, or feedback here: (basecamp)
+</html>
