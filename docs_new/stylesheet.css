@@ -1,0 +1,53 @@
+/* Reset CSS see --> http://meyerweb.com/eric/tools/css/reset/ */
+* {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+/*index page */
+#indexwrapper{
+      background-color: #E3F2FD;
+      width: 100%;
+}
+
+.selfpic{
+   width: 15%;
+   margin: 1% 5%;
+   float: left;
+}
+
+.aboutme{
+   width: 70%;
+   margin-right: 5%;
+   float: right;
+}
+
+.aboutme .words{
+   width: 50%;
+   margin: 0 auto;
+}
+
+h1.cursive{
+   font-family:cursive;
+   text-align: center;
+   font-size: 50px;
+}
+
+.aboutme .navbar{
+   width: 50%;
+   font-weight: bold;
+   float: right;
+   margin-top: 10%;
+}
+
+.aboutme .navbar{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   justify-content: space-around;
+   align-items: center;
+   background-color: grey;
+}
