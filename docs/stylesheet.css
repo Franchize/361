@@ -12,9 +12,13 @@
 
 @font-face{
 	font-family: 'Kaufmann Bold';
-	src: url(font/Kaufmann-Bold.otf);
-	font-family: 'Kaufmann;'
-	src:url(font/Kaufmann_Regular.ttf);
+	src: url(font/Kaufmann_Bold.otf);
+
+}
+
+@font-face {
+	font-family: 'Kaufmann';
+	src: url(font/Kaufmann_Regular.ttf);
 }
 
 /*index page */
@@ -42,10 +46,10 @@
    margin: 0 auto;
 }
 
-h1.cursive{
-   text-align: center;
-	margin-bottom: 10%;
+header{
+	padding: 2em;
 }
+
 
 .aboutme .navbar{
    display: flex;
@@ -88,9 +92,23 @@ body{
 	/*font-family: 'Open Sans', sans-serif;
 	font-family: 'Lato', sans-serif;
 	font-family: 'Raleway', sans-serif; */
-	font-family: 'Kaufmann Bold', 'Kaufmann';
 	background-color: #fffefa;
 	}
+
+	p.kauf{
+		font-family:'Kaufmann Bold';
+	}
+
+	h1.kaufb{
+		font-family:'Kaufmann';
+		text-align: center;
+		font-size: 2em;
+		font-weight: bold;
+		padding-bottom: .001em;
+
+	}
+
+
 
 .NavBar{
 	background-color:#F8F8FF;
