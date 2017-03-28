@@ -13,8 +13,9 @@
 /*index page */
 #iwrapper{
       background-color: #E3F2FD;
-      width: 100%;
-		height: 100%;
+      width: 58.125em; /* 930px/16px(1em)*/
+		height: 100%; /*expands the entire length, nonselective to the screen size*/
+		margin: auto; /* centers wrapper*/
 }
 
 .selfpic{
@@ -37,7 +38,6 @@
 h1.cursive{
    font-family:cursive;
    text-align: center;
-   font-size: 25px;
 	margin-bottom: 10%;
 }
 
@@ -83,7 +83,6 @@ body{
 	font-family: 'Lato', sans-serif;
 	font-family: 'Raleway', sans-serif;
 	background-color: #fffefa;
-	font-size: 24px;
 	}
 
 .NavBar{
