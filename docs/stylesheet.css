@@ -10,6 +10,8 @@
 
 /* Reset CSS see --> http://meyerweb.com/eric/tools/css/reset/ */
 
+/*special fonts */
+
 @font-face{
 	font-family: 'Kaufmann Bold';
 	src: url(font/Kaufmann_Bold.otf);
@@ -21,104 +23,108 @@
 	src: url(font/Kaufmann_Regular.ttf);
 }
 
-/*index page */
-#iwrapper{
+/* page style theme */
+#wrapper{
       background-color: #E3F2FD;
-      width: 58.125em; /* 930px/16px(1em)*/
+      max-width: 59.125em; /* 930px/16px(1em)*/
 		height: 100%; /*expands the entire length, nonselective to the screen size*/
 		margin: auto; /* centers wrapper*/
-		padding: 2em; /*applies to all four sides */
+		padding:.5em;
 }
 
-.selfpic{
-   float: left; /* no need to add margins since its contatiner has padding */
-
-}
-
-.aboutme{
-   width: 70%;
-   margin-right: 5%;
-   float: right;
-}
-
-.aboutme .words{
-   width: 50%;
-   margin: 0 auto;
+body{
+	padding: .75em;
 }
 
 header{
-	padding: 2em;
+
 }
 
 
-.aboutme .navbar{
-   display: flex;
-   flex-direction: row;
-   flex-wrap: nowrap;
-   justify-content: space-around;
-   align-items: center;
-   background-color: #BBDEFB;
-	float: auto;
-   margin-top: 5%;
-}
+main{
 
-.aboutme .navbar .nav{
-	font-weight: normal;
-	color: white;
-}
-
- .footer{
-	font-family: courier, monospace;
-	text-align: center;
-	font-size: medium;
-}
- .pic{
-	 float: left;
- }
-
-#wrapper{
-	height: 100%;
-	max-width: 80%;
+	padding: 3em;
+	padding-bottom: 0em;
+	overflow: hidden;
+	width: 53.125em;
 	margin: auto;
-	}
 
-/* Body work */
+}
 
-body{
-	padding-top: 10px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-	padding-left: 20px;
-	/*font-family: 'Open Sans', sans-serif;
-	font-family: 'Lato', sans-serif;
-	font-family: 'Raleway', sans-serif; */
-	background-color: #fffefa;
-	}
+footer{
+	background-color:#F0FFFF;
+	color:#000000;
+	background-color:#FFFAF0;
+	width: 59.125em;
+	margin: auto;
+}
 
-	p.kauf{
-		font-family:'Kaufmann Bold';
-	}
-
-	h1.kaufb{
+h1.kaufb{
 		font-family:'Kaufmann';
 		text-align: center;
-		font-size: 2em;
-		font-weight: bold;
-		padding-bottom: .001em;
+		font-size: 4em;
+		font-weight: solid;
+		color: black;
+		padding-bottom: .25em;
+		letter-spacing: .01em;
+}
 
-	}
-
-
-
-.NavBar{
-	background-color:#F8F8FF;
-	text-transform: uppercase;
-	color:#000000;
+.line{
+	width: 53.125em;
+	border-bottom: black;
+	border-style: solid;
+	border-width: thin;
+	margin: auto;
 }
 
 .footer{
-	background-color:#F0FFFF;
-	text-transform: lowercase;
-	color:#000000;
-	background-color:#FFFAF0;
+  font-family: monospace;
+  text-align: center;
+  font-size: medium;
 }
+
+/* nav bar styling */
+
+#nav
+{
+	padding-top: 1em;
+	width: 100%;
+}
+#nav li
+{
+  display:inline-block; /* this makes your list elements show up in 1 row*/
+  list-style-type: none;
+  width: 9%;
+  margin-left: 7.25em;
+}
+
+#nav a
+{
+  text-align: center;
+  color: #gold;
+  font-size: 1.1em;
+}
+
+/* Hyperlink */
+a:hover{
+	color: gold;
+}
+
+
+/*index page */
+#selfpic{
+
+	float: left; /* no need to add margins since its contatiner has padding */
+}
+
+#text{
+	width: 70%;
+	float: right;
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 2em;
+	font: NeutraDemi; 
+}
+
+
+/* Index Page */
