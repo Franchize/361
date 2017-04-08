@@ -36,20 +36,13 @@ body{
 	padding: .75em;
 }
 
-header{
-
-}
-
-
 main{
 
 	padding: 3em;
-	padding-bottom: 0em;
+	padding-bottom: 1em;
 	overflow: hidden;
 	margin: auto;
 }
-
-
 
 h1.kaufb{
 		font-family:'Kaufmann';
@@ -71,10 +64,9 @@ h1.kaufb{
 /*footer*/
 
 footer{
-	background-color:#F0FFFF;
+	background-color:white;
 	color:#000000;
-	background-color:#FFFAF0;
-	max-width: 59.125em;
+	max-width: 60.125em;
 	margin: auto;
 }
 
@@ -82,7 +74,6 @@ footer{
   font-family: monospace;
   text-align: center;
   font-size: medium;
- 
 }
 
 #footerimage{
@@ -92,9 +83,7 @@ footer{
 
 
 
-#indexdiv{
-width: 100%;
-}
+
 /* nav bar styling */
 
 #nav
@@ -115,6 +104,11 @@ width: 100%;
   text-align: center;
   color: black;
   font-size: 1.1em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p{
+	font-family: 'Roboto', sans-serif;
 }
 
 /* Hyperlink */
@@ -136,8 +130,28 @@ a:hover{
 	padding-top: 1em;
 }
 
+#indexdiv{
+width: 100%;
+}
+
 /* About Page */
 h2{
 	font-family: 'Kaufmann';
 	font-size: 2em;
+	margin-bottom: .70em;
+}
+
+hr{
+	border: #C0C0C0;
+	border-style: solid;
+	border-width: thin;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.75em;
+	margin-bottom: 1.5em;
+	width: 7em;
+}
+
+li.font{
+	font-family: 'Roboto', sans-serif;
 }
