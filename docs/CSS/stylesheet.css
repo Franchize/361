@@ -109,6 +109,8 @@ footer{
 
 p{
 	font-family: 'Roboto', sans-serif;
+	color: black;
+
 }
 
 /* Hyperlink */
@@ -154,4 +156,10 @@ hr{
 
 li.font{
 	font-family: 'Roboto', sans-serif;
+}
+
+/*Map Page*/
+#map{
+	margin: auto;
+	padding-top: 5em;
 }

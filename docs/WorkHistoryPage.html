@@ -25,7 +25,7 @@
 
 				<main id="content">
 					<section id="PastWorkExperience">
-							<h2> Recent work experience with the Northridge Group: </h2>
+							<h2> Recent work experience with the <a href="http://www.northridgegroup.com"> Northridge Group:<a/></h2>
 								<ol>
 									<li class="font">Develop IT Support organization</li>
 									<li class="font">Evolved IT from a collection of PC’s and Laptops to a formal, centrally managed platform</li>
@@ -34,6 +34,8 @@
 									<li class="font">Took the lead in documenting and providing self-help tools, and while technology is constantly changing, gave the firm a starting point that can continue to be refined</li>
 								</ol>
 					</section>
+
+				<div id="map" style="width:400px;height:400px"> NRG</div>
 			<hr>
 					<section id="FutureWorkExperience">
 							<h2> Future work experience: </h2>
@@ -45,6 +47,19 @@
 					</section>
 				</main>
 		   </div>
+
+				<script>
+		       var map;
+		       function initMap() {
+		         map = new google.maps.Map(document.getElementById('map'), {
+		           center: {lat: 41.9949, lng: -87.8694},
+		           zoom: 18
+		         });
+		       }
+		     </script>
+		     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAfCOERT2lYu-B8kO0VbIVADsay14jUL_Q&callback=initMap"
+		     async defer></script>
+
 	<footer>
 		<div id="footerimage"><img src="Images/nef.png" alt="Nefertiti" style="width:3.5em;height:3.5em;"></div>
 		<p id="contactinfo"> &copy; 2017 The Shakur Group, Inc. <br>
